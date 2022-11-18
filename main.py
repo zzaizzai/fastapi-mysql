@@ -36,8 +36,6 @@ async def stroe(student:Student):
             "msg": "something wrong with you"
         }
  
-
-
 @app.get("/data")
 def data():
     return {'data': 1234}
@@ -101,3 +99,6 @@ async def search(search):
             "success": True,
             "data": data
         }
+
+
+        
