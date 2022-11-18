@@ -24,7 +24,6 @@ async def stroe(student:Student):
         email=student.email,
         age=student.age,
         country=student.country,
-
     ))
     if data.is_insert:
         return {
